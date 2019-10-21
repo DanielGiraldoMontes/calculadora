@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="text_infinite">INFINITO</string>
+    <string name="btn_number_1">1</string>
+    <string name="btn_number_2">2</string>
+    <string name="btn_number_3">3</string>
+    <string name="btn_number_4">4</string>
+    <string name="btn_number_5">5</string>
+    <string name="btn_number_6">6</string>
+    <string name="btn_number_7">7</string>
+    <string name="btn_number_8">8</string>
+    <string name="btn_number_9">9</string>
+    <string name="btn_number_0">0</string>
+    <string name="btn_character_multiply">*</string>
+    <string name="btn_character_adition">+</string>
+    <string name="btn_character_substract">-</string>
+    <string name="btn_character_divide">/</string>
+    <string name="btn_character_equal">=</string>
+    <string name="btn_character_dot">.</string>
+    <string name="btn_clear">LIMPIAR</string>
+    <string name="btn_clear_one">C</string>
+
+</resources>
