@@ -19,7 +19,7 @@ jobs:
     - name: Build with Gradle
       run: ./calculadora/gradlew build
     - name: Build & Debug apx
-      run: ./calculadora/gradlew assembleDebug
+      run: ./calculadora/gradlew assembleRelease
     - name: Releasing using hub
       uses: DanielGiraldoMontes/calculadora@master
       env:
