@@ -22,5 +22,5 @@ jobs:
       uses: DanielGiraldoMontes/calculadora@master
       env:
             GITHUB_TOKEN: ${{ secrets.TOKEN }}
-            APP_FOLDER: app
+            APP_FOLDER: calculadora/app
             RELEASE_TITLE: New Build  
