@@ -17,7 +17,7 @@ jobs:
     - name: Change execution permission in gradlew file
       run: chmod +x ./gradlew  
     - name: Build with Gradle
-      run: ./calculadora/gradlew build
+      run: ./gradlew build
     - name: Build debug APK
       run: bash ./gradlew assembleDebug --stacktrace
     - name: Upload APK
