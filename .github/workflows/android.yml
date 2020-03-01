@@ -15,11 +15,11 @@ jobs:
       with:
         java-version: 1.8 
     - name: Change execution permission in gradlew file
-      run: chmod +x ./calculadora/gradlew  
+      run: chmod +x ./gradlew  
     - name: Build with Gradle
       run: ./calculadora/gradlew build
     - name: Build debug APK
-      run: bash ./calculadora/gradlew assembleDebug --stacktrace
+      run: bash ./gradlew assembleDebug --stacktrace
     - name: Upload APK
       uses: actions/upload-artifact@v1
       with:
