@@ -1,2 +1,2 @@
 # calculadora
-Calculadora básica.
+Calculadora básica android.
